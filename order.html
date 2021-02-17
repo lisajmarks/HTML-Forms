@@ -19,33 +19,62 @@
 
             <table>
                 <tr>
-                    <td>Watermelon $1,200.00</td>
-                    <td>Canteloupe $400.00</td>
-                    <td>Honeydew $1,750,00.00</td>
+                    <td>Watermelon</td> <td>$1,200.00</td>
                 </tr>
+                    
+                <tr>
+                    <td>Canteloupe</td> <td>$400.00</td>
+                </tr>
+                
+                <tr>
+                    <td>Honeydew</td> <td>$1,750,00.00</td>
+                </tr>
+    
             </table>
 
 
+        <h2>Order Form</h2>
 
-Order Form
+            <form>
+                <label>Your name</label>
+                    <input type = "text" name = "your name">
+                <br>
+                <br>
+                <label>Who are we sending this to?</label>
+                    <input type = "text" name = "recipient">
+                <br>
+                <br>
+                <form>
+                    Choose a melon
+                    <select name = "melon">
+                        <option value = "Watermleon">Watermelon</option> 
+                        <option value = "Canteloupe">Canteloupe</option>
+                        <option value = "Honeydew">Honeydew</option>
+                    </select>
+                </form>
+                <br>
+                <form>When should we deliver?</form>
+                    <input type="radio" name="time" value="Morning"> Morning
+                    <input type="radio" name="time" value="Evening"> Evening
+                    <input type="radio" name="time" value="Any Time"> Any Time
+                <br>
+                
+                <form>
+                    <label>Enter your message:</label>
+                    <textarea></textarea>
+                </form>
+                <br>
+                <form>Subscribe to our newsletter
+                    <input type="checkbox" name="Subscribe" > Yes
+                </form>
+                
+                <form>
+                    <input type = "Submit">
+                </form>
 
-Your name
+                
 
-Who are we sending this to?
+            </form>
 
-Choose a melon
-Watermleon
-Canteloupe
-Honeydew
-
-When should we deliver?
-Morning
-Evening
-Any time
-
-Enter your message:
-
-Subscribe to our newsletter
-Yes
     </body>
 </html>
